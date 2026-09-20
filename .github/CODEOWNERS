@@ -1,1 +1,17 @@
-*               @eccortes4 @ahpham123
+*                              @emilyytsai @bhlonggul # current team leads
+
+/.github/                      @emilyytsai
+
+/eslint.config.js              @emilyytsai
+/svelte.config.js              @emilyytsai
+/vite.config.ts                @emilyytsai
+/tsconfig.json                 @emilyytsai
+/.prettierrc                   @emilyytsai
+/.prettierignore               @emilyytsai
+
+/src/routes/                   @emilyytsai
+/src/lib/                      @emilyytsai
+/static/                       @emilyytsai
+
+/wrangler.toml                 @bhlonggul
+/src/worker-configuration.d.ts @bhlonggul
