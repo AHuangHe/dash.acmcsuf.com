@@ -6,7 +6,7 @@
 </script>
 
 <!-- nav bar -->
-<header class="border-b border-neutral-200 bg-white">
+<header class="border-b border-neutral-200 bg-white text-neutral-900">
 	<div class="mx-auto flex max-w-xl items-center justify-between px-6 py-4">
 		<span class="font-semibold">dash</span>
 
