@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { goto } from '$app/navigation'
+	import Button from '$lib/components/Button.svelte';
+
 	const tabs = ['All', 'Events', 'Workshops'];
 	let active = $state('All');
 
@@ -29,7 +32,8 @@
 	<h1 class="text-2xl">Welcome to dash.acmcsuf.com</h1>
 
 	<p>
-		<a href="/auth/discord" class="rounded-full border px-6 py-3">Sign in with Discord</a>
+		<!-- <a href="/auth/discord" class="rounded-full border px-6 py-3">Sign in with Discord</a> -->
+		<Button onclick={() => goto('/auth/discord')}>Sign in with Discord</Button>
 	</p>
 
 	<h2>Upcoming {active}</h2>
